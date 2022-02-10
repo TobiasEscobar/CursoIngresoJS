@@ -1,7 +1,13 @@
+/*Comentarios
+Tobias Escobar 
+Ejercicio 4 IF*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad;
 
+	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-}//FIN DE LA FUNCIÓN
+		if(edad >=13 && edad <=17){
+			alert("Usted es un adolecente");
+		}
+}

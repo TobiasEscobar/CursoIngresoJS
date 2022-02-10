@@ -1,6 +1,13 @@
+/*Comentarios
+Tobias Escobar
+Ejercicio 1 IF*/
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	let edad; 
+	
+	edad = parseInt(document.getElementById("txtIdEdad").value);
 
-}//FIN DE LA FUNCIÓN
+		if(edad == 15) {
+			alert("Niña bonita");
+		}
+}
